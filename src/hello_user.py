@@ -10,3 +10,7 @@ def hello_user(username: str = "Bob"):
     :return: приветствие пользователя
     """
     return f"Hello, {username}!"
+
+
+def new_function(a: int, b: int):
+    return a + b
