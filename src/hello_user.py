@@ -13,4 +13,10 @@ def hello_user(username: str = "Bob"):
 
 
 def new_function(a: int, b: int):
+    """
+    Новая функция
+    :param a: некое число
+    :param b: некое число
+    :return: сумма двух чисел
+    """
     return a + b
