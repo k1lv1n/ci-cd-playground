@@ -18,6 +18,7 @@ def test_wrong_hello():
 
 def test_new_func():
     assert new_function(1, 2) == 3, 'new_function has failed'
+    assert new_function(1, 1) == 2, 'new_function has failed'
     with pytest.raises(AssertionError):
         assert new_function(1, 2) == 4, 'new_function has failed'
 
